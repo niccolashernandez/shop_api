@@ -4,7 +4,7 @@ import { getUsers, getUser, createUser, updateUser, deleteUser } from '../contro
 
 const router = Router();
 
-router.get('/usuario', getUsers);
+router.get('/USUARIO', getUsers);
 router.get('/usuario/:id', getUser);
 router.post('/usuario', createUser);
 router.patch('/usuario/:id', updateUser);
